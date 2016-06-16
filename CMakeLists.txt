@@ -141,6 +141,7 @@ SET (gtest_force_shared_crt ON CACHE BOOL
 ADD_SUBDIRECTORY(googletest EXCLUDE_FROM_ALL)
 
 ADD_SUBDIRECTORY(platform)
+ADD_SUBDIRECTORY(phosphor)
 ADD_SUBDIRECTORY(subjson)
 ADD_SUBDIRECTORY(memcached)
 ADD_SUBDIRECTORY(couchstore)
